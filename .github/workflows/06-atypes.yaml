@@ -10,4 +10,5 @@ jobs:
   echo:
     runs-on: ubunt-latest
     steps:
-      run: echo 'Running whenever a PR is opened or synchronized AND base branch is develop'
+      - name: Mensaje
+        run: echo 'Running whenever a PR is opened or synchronized AND base branch is develop'
