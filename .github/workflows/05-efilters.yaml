@@ -1,0 +1,9 @@
+name: 05 - Event Filters
+on:
+  push:
+    branches:
+      - features
+jobs:
+  echo:
+    steps:
+      - run: echo 'Running whenever branch is features'
